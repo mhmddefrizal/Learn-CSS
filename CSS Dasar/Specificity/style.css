@@ -1,0 +1,7 @@
+ul#menu li {
+  color: green;
+}
+
+ul#menu li.nasgor {
+  color: red;
+}

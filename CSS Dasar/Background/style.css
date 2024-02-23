@@ -1,0 +1,5 @@
+body {
+  background-color: white;
+  background-image: url(bg/bg-gradient-x.png);
+  background-repeat: repeat-x;
+}

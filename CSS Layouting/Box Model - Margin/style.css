@@ -1,0 +1,55 @@
+.satu,
+.dua,
+.tiga {
+  display: inline-block;
+}
+
+.satu {
+  width: 200px;
+  height: 200px;
+  background-color: lightgreen;
+  /* Cara Pakai */
+  /* margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 150px;
+  margin-right: 50px; */
+
+  /* Overlapping */
+  margin-right: 30px;
+}
+
+.dua {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  /* Overlapping */
+  margin-left: 20px;
+}
+
+.tiga {
+  width: 50px;
+  height: 50px;
+  background-color: violet;
+}
+
+/* Coba Margin 2 (Negatif Margin, Auto, Shorthand ) */
+.empat {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /* margin-bottom: 30px; */
+  margin: 10px 20px 30px 40px;
+}
+
+.lima {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  /* margin-top: -50px; */
+}
+
+.enam {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Coba Border Radius</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        margin-right: 30px;
+      }
+      .satu {
+        border: 5px solid gray;
+        border-radius: 5px;
+      }
+      .dua {
+        border: 5px solid red;
+        border-radius: 50% 0 50% 0;
+      }
+      .tiga {
+        border: 5px solid green;
+        border-radius: 50%;
+      }
+      .empat {
+        height: 50px;
+        border: 5px solid blue;
+        border-radius: 70px 70px 0 0;
+      }
+      .lima {
+        border: 5px solid blue;
+        position: relative;
+        top: 70px;
+        height: 50px;
+        border-radius: 0 0 70px 70px;
+      }
+      .enam {
+        border: 5px solid gold;
+        border-radius: 5px 50% 50% 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+    <div class="empat"></div>
+    <div class="lima"></div>
+    <div class="enam"></div>
+  </body>
+</html>
